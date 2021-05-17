@@ -5,7 +5,7 @@ new fullpage('#fullpage',{
         const section = destination.item;
         const title = section.querySelector("h1");
         const tl = new TimelineMax({delay:0.5});
-        tl.fromTo(title,0.5,{y:"70",opacity: 0},{y:0,opacity:1});
+        tl.fromTo(title,0.5,{y:"70",opacity:0},{y:0,opacity:1});
 
         if(destination.index ===1){
             const chairs = document.querySelectorAll('.chair');
