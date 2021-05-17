@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.chair{
+    height: 100%;
+    position: absolute;
+    top: 70%;
+    left:80%;
+    transform: translate(-70%,-70%);
+
+    ;
+}
+.s1{
+    background-image: url("../img/is.jpg");
+    background-position: center;
+}
+.section h1{
+
+    font-size: 64px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    color: white;
+
+}
+.s2{
+    background-color: white;
+}
+.s2 h1{
+    font-size: 48px;
+    color: black ;
+
+}
+.s3{
+    background-image: url("../img/erick.jpeg");
+    background-position: center;
+}
+.description{
+    margin:20%;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+    color: black;
+
+}
+.description p{
+    margin: 5px 0px;
+    
+
+}
+.nav1{
+    background-color: black;
+}
